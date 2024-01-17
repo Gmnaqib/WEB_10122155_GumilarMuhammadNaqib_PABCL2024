@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    background-color: rgba(27, 27, 27, 0.98);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    padding: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 0 40px;
+}
+nav img {
+    max-height: 60px;  
+    margin-left: 15px;
+    padding-right: 40px; 
+}
+
+#jumbotron{
+    width: 100%;
+    height: auto;
+}
+#jumbotron img {
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    filter: brightness(70%);
+}
+
+#jumbotron img.active {
+    opacity: 1;
+    filter: brightness(70%);
+}
+
+h1{
+    position: relative;
+    padding: 237px  150px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.container{
+    color: aliceblue;
+    /*padding: 60px 50px;*/
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.right{
+    background-color: rgb(26, 26, 26);
+}
+
+.left {
+    background-color: rgb(34, 34, 34);
+}
+
+section{
+    padding: 30px;
+}
+
+#person{
+    width: 18%;
+}
+
+#saya{
+    padding-top: 150px;
+}
+
+#yt{
+    width: 6%;
+    padding-bottom: 10px;
+}
+
+#ig{
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(45, 45, 46); /* Ganti dengan warna latar belakang yang diinginkan */
+    color: whitesmoke; /* Ganti dengan warna teks yang diinginkan */
+}
